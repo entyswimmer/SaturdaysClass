@@ -3,6 +3,15 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Project1 用
+Project1/.venv/
+Project1/__pycache__/
+Project1/data/*
+!Project1/data/**/.gitkeep
+Project1/.streamlit/secrets.toml
+*.png
+*.pdf
+
 # C extensions
 *.so
 
@@ -146,6 +155,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+*.cfg
 
 # Spyder project settings
 .spyderproject

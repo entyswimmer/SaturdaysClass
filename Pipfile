@@ -4,6 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+japanize-matplotlib = "*"
+openpyxl = "*"
+streamlit = "*"
+seaborn = "*"
+reportlab = "*"
 
 [dev-packages]
 
