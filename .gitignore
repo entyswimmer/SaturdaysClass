@@ -11,12 +11,16 @@ Project1/data/*
 Project1/.streamlit/secrets.toml
 *.png
 *.pdf
+*.csv
+*.xlsx
+
 
 # C extensions
 *.so
 
 #.DS_Store
 *.DS_Store
+Pipfile.lock
 
 # Distribution / packaging
 .Python

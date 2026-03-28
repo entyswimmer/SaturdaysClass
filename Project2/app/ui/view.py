@@ -34,6 +34,9 @@ class MainView(tk.Tk):
         self.ent_category.grid(row=2, column=1, padx=5, pady=2)
 
         # 金額を表示するコードを上の例に従って書いてみよう。(text="金額:"にする)
+        ttk.Label(input_frame, text="金額:").grid(row=3, column=0, sticky="e")
+        self.ent_category = ttk.Entry(input_frame)
+        self.ent_category.grid(row=3, column=1, padx=5, pady=2)
 
         # 備考
         ttk.Label(input_frame, text="備考:").grid(row=4, column=0, sticky="e")

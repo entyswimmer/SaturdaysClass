@@ -3,13 +3,13 @@ from shift import Shift
 
 def main():
     # 1. Create worker instances
-    worker1 = Worker(101, "Tanaka", "Manager")
+    worker1 = Worker(104, "Yamada", "Staff")
     worker2 = Worker(102, "Sato", "Staff")
     worker3 = Worker(103, "Suzuki", "Staff")
 
     # 2. Create shift instances
-    monday_shift = Shift("2024-05-20")
-    tuesday_shift = Shift("2024-05-21")
+    monday_shift = Shift("2026-02-26")
+    tuesday_shift = Shift("2026-02-27")
 
     # 3. Assign workers to shifts
     print("--- Assigning Workers ---")

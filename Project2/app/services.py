@@ -1,5 +1,6 @@
 #以下にはmodelsのインポートが不足しています
 #Strage()の書き方を真似してみましょう
+from .models import Transaction
 from .storage import Storage
 
 import csv
@@ -7,9 +8,9 @@ import csv
 class FinanceService:
     @staticmethod
     def add_entry(is_revenue, trans_data):
-        transaction = #Transactionクラスを使ってみよう(引数に**をつけること)
+        transaction = Transaction(trans_data)
         type_name = "revenue" if is_revenue else "expenses"
-        #Storageクラスのsaveメソッドを使ってみよう
+        Storage.save(type_name, transaction)
         return transaction
 
     @staticmethod
